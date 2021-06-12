@@ -29,7 +29,7 @@ $errors = $session->getFlashData('errors');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?= base_url('style.css') ?>" />
-    <title>Sign in & Sign up Form</title>
+    <title>Toko Online</title>
 </head>
 
 <body>
@@ -93,26 +93,24 @@ $errors = $session->getFlashData('errors');
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
-                    <h3>New here ?</h3>
+                    <h3>Belum Punya Akun ?</h3>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-                        ex ratione. Aliquid!
+                        Daftar segera untuk berbelanja di toko kami!
                     </p>
                     <button class="btn transparent" id="sign-up-btn">
-                        Sign up
+                        Daftar
                     </button>
                 </div>
                 <img src="<?= base_url('log.svg') ?>" class="image" alt="" />
             </div>
             <div class="panel right-panel">
                 <div class="content">
-                    <h3>One of us ?</h3>
+                    <h3>Sudah Punya Akun ?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                        laboriosam ad deleniti.
+                        Login dan belanja sepuasnya!
                     </p>
                     <button class="btn transparent" id="sign-in-btn">
-                        Sign in
+                        Login
                     </button>
                 </div>
                 <img src="<?= base_url('register.svg') ?>" class="image" alt="" />

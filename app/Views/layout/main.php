@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Starter Template · Bootstrap v4.6</title>
+    <title>Toko Online</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/starter-template/">
 
@@ -76,7 +76,7 @@
         window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')
     </script>
     <script src="<?= base_url('bootstrap-4.6/js/bootstrap.min.js') ?>"></script>
-
+    <?= $this->renderSection('script') ?>
 
 </body>
 
