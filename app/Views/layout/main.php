@@ -15,6 +15,13 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?= base_url('bootstrap-4.6/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/font-awesome.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/jquery-ui.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/nice/select.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/owl.carousel.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/slicknav.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
 
 
 

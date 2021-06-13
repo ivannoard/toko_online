@@ -7,7 +7,7 @@
             <div class="col-4">
                 <div class="card text-center">
                     <div class="card-header">
-                        <span class="text-success"><strong><?= $b->nama ?></strong></span>
+                        <span class="text-primary"><strong><?= $b->nama ?></strong></span>
                     </div>
                 </div>
                 <div class="card-body">
@@ -20,7 +20,7 @@
                     </p>
                 </div>
                 <div class="card-footer">
-                    <a href="<?= site_url('etalase/beli/' . $b->id) ?>" class="btn btn-success" style="width: 100%;">Beli</a>
+                    <a href="<?= site_url('etalase/beli/' . $b->id) ?>" class="btn btn-primary" style="width: 100%;">Beli</a>
                 </div>
             </div>
         <?php endforeach ?>

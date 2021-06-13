@@ -6,6 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('main.php');
+		$model = new \App\Models\Barang();
+		$barang = $model->findAll();
+		return view('main.php', [
+			'barang' => $barang
+		]);
 	}
 }

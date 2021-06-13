@@ -3,7 +3,6 @@
 
 
 <div class="container">
-    <h1>Halo From Barang/View</h1>
     <div class="row">
         <div class="col-6">
             <div class="card">

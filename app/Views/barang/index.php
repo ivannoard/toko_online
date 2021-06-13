@@ -23,7 +23,7 @@
                     <td>
                         <a href="<?= site_url('barang/view/' . $barang->id) ?>" class="btn btn-primary">view</a>
                         <a href="<?= site_url('barang/update/' . $barang->id) ?>" class="btn btn-success">update</a>
-                        <a href="<?= site_url('barang/delete/' . $barang->id) ?>" class="btn btn-danger" onclick="return confirm('Apakah anda yakin untuk menghapus?')">delete</a>
+                        <a href="<?= site_url('barang/delete/' . $barang->id) ?>" class="btn btn-danger">delete</a>
                     </td>
                 </tr>
             <?php endforeach ?>
